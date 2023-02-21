@@ -19,11 +19,11 @@ public class Main {
         }
         System.out.println(sum);
 
-
+        int[] numrat = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int numriimadh = 0;
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] > numriimadh) {
-                numriimadh = numbers[i];
+        for (int i = 0; i < numrat.length; i++) {
+            if (numrat[i] > numriimadh) {
+                numriimadh = numrat[i];
             }
         }
         System.out.println(numriimadh);
@@ -32,7 +32,7 @@ public class Main {
 
 
     public void gjejenumrinmetemadh() {
-        
+
     }
 
 }
